@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Главное активити"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnOpenSecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Открыть SecondActivity"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnSendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Передать данные"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnGetResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Получить результат"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnSendObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Передать объект"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnOpenBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Открыть браузер"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnOpenCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Сделать фото"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат будет здесь..."
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="#f0f0f0" />
+
+</LinearLayout>
